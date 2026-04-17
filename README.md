@@ -1,34 +1,67 @@
-# Automation-testing-for-Amazon2
-This project focuses on manual testing of an e-commerce web application similar to Amazon. The goal is to validate core functionalities such as login, search, cart, checkout, and payment.
+#  E-commerce Manual Testing Project (Amazon)
+
+##  Project Overview
+This project involves manual testing of an e-commerce web application similar to Amazon. The goal is to validate core functionalities like login, search, cart, checkout, and payment.
+
+---
+
+##  Scope of Testing
+- Login & Authentication  
+- Product Search  
+- Cart Management  
+- Checkout Process  
+- Payment Flow  
+- UI/UX Validation  
+
+##  Testing Types
+- Functional Testing  
+- UI Testing  
+- Validation Testing  
+- Negative Testing  
+
+## Tools Used
+- Microsoft Excel  
+- Screenshots  
+
+## Test Cases (Top 10)
+
+| TC ID | Module | Scenario | Expected Result |
+|------|--------|----------|-----------------|
+| TC_01 | Login | Valid Login | Login successful |
+| TC_02 | Login | Invalid Password | Error message |
+| TC_03 | Login | Empty Fields | Validation shown |
+| TC_04 | Search | Search Product | Results shown |
+| TC_05 | Search | Invalid Search | No results |
+| TC_06 | Cart | Add to Cart | Product added |
+| TC_07 | Cart | Remove Product | Product removed |
+| TC_08 | Cart | Update Quantity | Updated correctly |
+| TC_09 | Checkout | Add Address | Address saved |
+| TC_10 | Payment | Successful Payment | Order placed |
+
+
+##  Bug Report
+
+| Bug ID | Module | Issue | Severity |
+|--------|--------|-------|----------|
+| BUG_01 | Login | No error message | High |
+| BUG_02 | Cart | Quantity issue | High |
+| BUG_03 | Payment | No failure message | High |
+
+---
+
+##  Project Structure
 Ecommerce-Manual-Testing/
-│
-├── Test_Scenarios.xlsx
-├── Test_Cases.xlsx
-├── Bug_Report.xlsx
-├── Screenshots/
-└── README.md
-1 Test_Cases.xlsx
-Test Case ID | Module | Test Scenario | Steps | Expected Result | Actual Result | Status
-TC_01 | Login | Valid Login | Enter valid email & password | Login successful | Login successful | Pass
-TC_02 | Login | Invalid Password | Enter wrong password | Error message shown | Error displayed | Pass
-TC_03 | Login | Empty Fields | Click login without data | Validation message | Validation shown | Pass
-TC_04 | Login | Invalid Email | Enter invalid email | Email error | Error shown | Pass
-TC_05 | Search | Search Product | Search "mobile" | Relevant products | Products shown | Pass
-TC_06 | Search | No Result | Search "xyz123" | No results message | No results shown | Pass
-TC_07 | Search | Auto Suggestion | Type "lap" | Suggestions appear | Suggestions shown | Pass
-TC_08 | Search | Apply Filters | Apply price filter | Filtered results | Filter works | Pass
-TC_09 | Cart | Add to Cart | Add product | Product added | Added successfully | Pass
-TC_10 | Cart | Remove Product | Remove item | Product removed | Removed | Pass
-TC_11 | Cart | Update Quantity | Change quantity | Quantity updated | Updated | Pass
-TC_12 | Checkout | Proceed Checkout | Click checkout | Redirect page | Redirected | Pass
-TC_13 | Checkout | Add Address | Enter address | Address saved | Saved | Pass
-TC_14 | Checkout | Invalid Address | Leave fields empty | Validation error | Error shown | Pass
-TC_15 | Payment | Successful Payment | Enter valid details | Order placed | Success | Pass
-Bug_Report.xlsx
-BUG_02 | Cart | Change quantity | Quantity updated | Not updating | High | High | Open
-BUG_03 | Payment | Invalid card details | Error message | Page refresh only | High | High | Open
-BUG_04 | Search | Search laptop | Relevant results | Irrelevant items | Medium | Medium | Open
-BUG_05 | Checkout | Checkout without address | Validation error | Proceeds | Critical | High | Open
+- Test_Cases.xlsx  
+- Bug_Report.xlsx  
+- Screenshots/  
+- README.md  
+
+
+## 🚀 Conclusion
+This project demonstrates practical knowledge of manual testing including test case creation and bug reporting.
+
+-
+
 
 Test_Scenarios.xlsx
 TS_01 | Verify login functionality
